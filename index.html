@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Local Issue Reporter</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Local Issue Reporter</h1>
+
+    <form id="issueForm">
+      <input type="text" id="name" placeholder="Your Name" required />
+      <input type="text" id="location" placeholder="Area / City / State" required />
+      <textarea id="description" placeholder="Describe the issue..." required></textarea>
+      <button type="submit">Submit Issue</button>
+    </form>
+
+    <h2>Reported Issues</h2>
+    <div id="issuesList"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
